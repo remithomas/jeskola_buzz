@@ -1,0 +1,45 @@
+; CLW file contains information for the MFC ClassWizard
+
+[General Info]
+Version=1
+LastClass=CConfigDlg
+LastTemplate=CDialog
+NewFileInclude1=#include "stdafx.h"
+NewFileInclude2=#include "waveout.h"
+LastPage=0
+
+ClassCount=1
+
+ResourceCount=1
+Class1=CConfigDlg
+Resource1=IDD_CONFIG
+
+[DLG:IDD_CONFIG]
+Type=1
+Class=CConfigDlg
+ControlCount=15
+Control1=IDC_CONFIG_DEVICE,combobox,1344340227
+Control2=IDC_CONFIG_SAMPLERATE,combobox,1344339971
+Control3=IDC_CONFIG_DITHER,button,1342242819
+Control4=IDC_CONFIG_BUFNUM,edit,1350631552
+Control5=IDC_CONFIG_BUFNUM_SPIN,msctls_updown32,1342177462
+Control6=IDC_CONFIG_BUFSIZE,edit,1350631552
+Control7=IDC_CONFIG_BUFSIZE_SPIN,msctls_updown32,1342177462
+Control8=IDOK,button,1342242817
+Control9=IDCANCEL,button,1342242816
+Control10=IDC_STATIC,static,1342308352
+Control11=IDC_STATIC,static,1342308352
+Control12=IDC_STATIC,static,1342308352
+Control13=IDC_STATIC,static,1342308352
+Control14=IDC_CONFIG_LATENCY,static,1342308352
+Control15=IDC_STATIC,static,1342181383
+
+[CLS:CConfigDlg]
+Type=0
+HeaderFile=ConfigDlg.h
+ImplementationFile=ConfigDlg.cpp
+BaseClass=CDialog
+Filter=D
+LastObject=IDC_CONFIG_BUFNUM
+VirtualFilter=dWC
+
